@@ -1,0 +1,28 @@
+const reproductor = {
+    reproducir: function (id) {
+        console.log(`Reproduciendo canción con el id: ${id}`);
+    },
+    pausar: function (params) {
+        console.log('Pausando...');
+    },
+    borrar: function (id) {
+        console.log(`Borrando canción...${id}`);
+    },
+    crearPlayList: function (nombre) {
+        console.log(`Creando la playlist de ${nombre}`);
+    },
+    reproducirPlayList: function (nombre) {
+        console.log(`Reproduciendo la playlist con el nombre ${nombre}`);
+    }
+}
+
+reproductor.reproducir(30);
+reproductor.reproducir(20);
+reproductor.pausar();
+
+reproductor.borrar(30);
+reproductor.crearPlayList('Rock');
+reproductor.crearPlayList('Cumbiones');
+
+reproductor.reproducirPlayList('Salsa');
+reproductor.reproducirPlayList('Metal');
