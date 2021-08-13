@@ -7,4 +7,15 @@ const carrito = [
     { nombre: 'Audifonos', precio: 300 },
     { nombre: 'Teclado', precio: 400 },
     { nombre: 'Celular', precio: 700 },
-]
+];
+
+//Comprobar si un valor existe en un arreglo
+console.log(meses.includes('Enero'));
+
+//En un arreglo de objetos se utiliza .some
+console.log(carrito.some( producto =>{
+    return producto.nombre === 'Teclado';
+}));
+
+//En un arreglo tradicional con .some
+console.log( meses.some( mes => mes ==='Febrero'));
