@@ -1,4 +1,4 @@
-import App from './classes/App.js';
+/* eslint-disable linebreak-style */
+import App from './classes/App';
 
-// eslint-disable-nextline
-const app = new App();
+App(); //

@@ -1,1 +1,4 @@
 /51-Testing-Jest/node_modules
+/52-Testing-Cypress/node_modules
+/52-Testing-Cypress/cypress/videos
+/53-Webpack-ESLint/node_modules
